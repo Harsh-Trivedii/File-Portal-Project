@@ -46,19 +46,17 @@ Follow these steps to set up and run the project on your local machine.
     Open your web browser and go to http://127.0.0.1:8000/ to access the File Portal.
 
 
+
 Flow of the Website-
-Sign Up: Create a new account by providing the necessary information.
-Login: Log in to your account with your credentials.
-Home: Navigate to the home page after successful login.
-Menu Options:
-You can select between the following options from the menu:
-Upload: Choose to upload files.
-File List: View a list of your uploaded files.
-Search: Explore and search for other users.
-Upload:
-If you choose to upload, after a successful upload, you will be redirected to the file list.
-Search:
-Clicking on the search menu allows you to view profiles of other users.
+1. Sign Up: Create a new account by providing the necessary information.
+2. Login: Login to your account with your credentials.
+3. Home: Navigate to the home page after successful login.
+4. Menu Options: You can select between the following options from the menu:
+5. Upload: Choose to upload files.
+6. File List: View a list of your uploaded files.
+7. Search: Explore and search for other users.
+8. Upload: If you choose to upload, after a successful upload, you will be redirected to the file list.
+9. Search: Clicking on the search menu allows you to view profiles of other users.
 
 
 Registration Page-
