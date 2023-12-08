@@ -62,27 +62,27 @@ Clicking on the search menu allows you to view profiles of other users.
 
 
 Registration Page-
-![Register](images/Register.png)
+![Register](Images/Register.png)
 
 Login Page-
-![Login](images/Login.png)
+![Login](Images/Login.png)
 
 Home Page-
-![Home](images/Home.png)
+![Home](Images/Home.png)
 
 File Upload Page-
-![File Upload](images/Fileupload.png)
+![File Upload](Images/Fileupload.png)
 
 File list page- 
-![File list](images/Filelist.png)
+![File list](Images/Filelist.png)
 
 Search Users-
-![Search User](images/search.png)
+![Search User](Images/search.png)
 
 User Profile 1-
-![Profile 1](images/profile1.png)
+![Profile 1](Images/profile1.png)
 
 User Profile 2-
-![Profile 2](images/profile2.png)
+![Profile 2](Images/profile2.png)
 
 
