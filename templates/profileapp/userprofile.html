@@ -1,0 +1,33 @@
+{% extends 'fileapp/base.html' %}
+{% load static %}
+
+{% block body_block %}
+  <link rel="stylesheet" href="{% static 'profileapp/css/profilestyle.css' %}">
+  <div class="userprofile">
+    <h2>{{ user_profile.username }}</h2>
+    
+    <h3>Uploaded Files:</h3>
+    {% if uploaded_files %}
+      <ul>
+        {% for file in uploaded_files %}
+          <li>{{ file.file.name }} - Uploaded on {{ file.upload_date }}</li><br>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No files uploaded yet.</p>
+    {% endif %}
+
+    <h3>Shared Files:</h3>
+    {%if shared_files%}
+    <ul>
+      {%for file in shared_files%}
+      <li>{{file.file.name}} - Shared by {{file.user.username}}</li><br>
+      {%endfor%}
+    </ul>
+    {%else%}
+    <p>No shared files yet..</p>
+    {%endif%}
+    <br>
+    <a href="{%url 'user_search'%}">Go Back</a>
+  </div>
+{% endblock %}

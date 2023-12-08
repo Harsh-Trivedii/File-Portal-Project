@@ -1,0 +1,13 @@
+{%extends 'fileapp/base.html'%}
+{%load static%}
+{%block form_content%}
+<link rel="stylesheet" href="{% static 'fileapp/css/upload.css' %}">
+<div class="uploadclass">
+<h2>File Upload Form</h2>
+<form method="post" enctype="multipart/form-data">
+    {{form.as_p}}
+    {%csrf_token%}
+    <button type="submit">Upload</button>
+</form>
+</div>
+{%endblock%}

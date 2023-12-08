@@ -1,0 +1,25 @@
+.list h2 {
+    color: #333;
+}
+
+.list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.list thead th {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.list tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.list p{
+    color:white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Portal</title>
+    <link rel="stylesheet" href="{% static 'fileapp/css/basestyle.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FILE PORTAL</h1>
+        </div>
+        
+        <div class="nav">
+            {% if user.is_authenticated %}
+                <p>Welcome, {{ user.username }}! <a href="{% url 'logout' %}">Logout</a></p>
+                <nav>
+                    <ul>
+                        <li><a href="{% url 'upload' %}">File Upload</a></li>
+                        <li><a href="{% url 'filelist' %}">File List</a></li>
+                        <li><a href="{% url 'user_search' %}">User Search</a></li>   
+                    </ul>
+                </nav>
+            {% else %}
+                <p><a href="{% url 'login' %}">Login</a> | <a href="{% url 'register' %}">Sign Up</a></p>
+            {% endif %}
+        </div>
+        
+        <div class="auth-message">
+            {% block auth_message %}{% endblock %}
+        </div>
+
+        <div class="form-container">
+            {% block form_content %}{% endblock %}
+        </div>
+        
+        <div class="bodyclass">
+            {% block body_block %}{% endblock %}
+        </div>
+    </div>
+    <footer>Developed by Harsh Trivedi</footer>
+</body>
+</html>

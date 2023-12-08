@@ -1,0 +1,48 @@
+.usersearch {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.usersearch h2 {
+    color: #333;
+}
+
+.usersearch form {
+    margin-top: 10px;
+}
+
+.usersearch button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchresults {
+    margin-top: 20px;
+}
+
+.searchresults h3 {
+    color: #333;
+}
+
+.searchresults ul {
+    list-style: none;
+    padding: 0;
+}
+
+.searchresults li {
+    margin-bottom: 5px;
+}
+
+.searchresults li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.homebody {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.homebody h2 {
+    color: #333;
+    text-align: center;
+}
+
+.homebody h3 {
+    color: #555;
+}
+
+.homebody ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.homebody li {
+    margin-bottom: 10px;
+}
+
+
